@@ -1,0 +1,31 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  overflow-y: hidden !important;
+}
+.profile p {
+  margin: 15px;
+  text-transform: capitalize;
+}
+.profile img {
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 100px;
+  object-fit: contain;
+}
+.profile .btn {
+  background-color: black;
+  color: white;
+}
+.profile .btn:hover {
+  background-color: red;
+}
+.profile .btn-close {
+  box-shadow: none;
+}
+.darkprofile .btn {
+  background-color: red;
+}

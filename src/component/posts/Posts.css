@@ -1,0 +1,56 @@
+.card {
+  margin-bottom: 25px;
+  border: 1px solid gray;
+}
+.card-header {
+  color: royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.card pre {
+  float: right;
+  color: royalblue;
+}
+.card button {
+  border: none;
+  background-color: black;
+  color: white;
+}
+.card button:hover {
+  background: rgba(255, 0, 0, 1);
+  color: white;
+}
+.card-header small {
+  float: right;
+  font-size: 12px;
+  margin-right: 10px;
+  color: green;
+}
+.darkcard {
+  background-color: rgb(32, 33, 36);
+  color: white;
+  border: 1px solid white;
+}
+.darkcard .card-header {
+  border-bottom: 1px solid white;
+}
+.darkcard button {
+  background-color: red;
+}
+@media all and (max-width: 400px) {
+  .card-header small {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 500px) {
+  .card-header span {
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 350px) {
+  .card-header span {
+    font-size: 10px;
+  }
+}

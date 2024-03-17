@@ -1,0 +1,10 @@
+.spinner-border {
+  color: red;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+.home {
+  min-height: 100vh;
+  position: relative;
+  overflow: scroll;
+}

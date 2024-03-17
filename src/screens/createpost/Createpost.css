@@ -1,0 +1,29 @@
+.form-control:focus {
+  border: 1.5px solid red;
+  box-shadow: none;
+}
+.form-control {
+  border: 1px solid black;
+}
+.create-btn {
+  float: right;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.create-btn:hover {
+  background-color: red;
+  color: white;
+}
+.alert-danger {
+  color: red;
+  border: 1px solid red;
+}
+.alert-success {
+  color: green;
+  border: 1px solid green;
+}
+.darkform button {
+  background-color: red;
+}

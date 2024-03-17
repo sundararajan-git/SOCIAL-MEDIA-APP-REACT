@@ -1,0 +1,13 @@
+.card .btns {
+  float: right;
+}
+.card a {
+  background-color: black;
+  color: white;
+}
+.card .btns button {
+  margin-left: 10px;
+}
+.card-title {
+  color: red;
+}
